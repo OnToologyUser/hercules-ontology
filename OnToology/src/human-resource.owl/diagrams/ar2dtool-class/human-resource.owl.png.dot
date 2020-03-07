@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "asiohr:ResearchPersonnel" "asiohr:AdministrativePersonnel" "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" "asiohr:Long-termStaffing" "asiohr:Short-termStaffing" ; /*classes style*/
+	"asiohr:Long-termStaffing" -> "asiohr:Short-termStaffing" [ label = "owl:disjointWith" ];
+	"asiohr:AdministrativePersonnel" -> "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" [ label = "owl:disjointWith" ];
+	"asiohr:AdministrativePersonnel" -> "asiohr:ResearchPersonnel" [ label = "owl:disjointWith" ];
+
+}

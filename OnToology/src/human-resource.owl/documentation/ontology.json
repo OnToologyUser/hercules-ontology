@@ -1,0 +1,69 @@
+[ {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel"
+  }, {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#OfficialStaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchFellow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#TechniquePersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource"
+  } ]
+} ]

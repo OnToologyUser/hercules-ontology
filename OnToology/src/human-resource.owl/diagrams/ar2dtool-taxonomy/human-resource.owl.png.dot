@@ -1,0 +1,15 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "asiohr:ResearchPersonnel" "asiohr:AdministrativePersonnel" "asiohr:HumanResource" "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" "asiohr:Long-termStaffing" "asiohr:TechniquePersonnel" "asiohr:OfficialStaff" "asiohr:ResearchFellow" "asiohr:HiredStaff" "asiohr:Short-termStaffing" ; /*classes style*/
+	"asiohr:ResearchPersonnel" -> "asiohr:HumanResource" [ label = "rdfs:subClassOf" ];
+	"asiohr:AdministrativePersonnel" -> "asiohr:HumanResource" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" -> "asiohr:HumanResource" [ label = "rdfs:subClassOf" ];
+	"asiohr:Short-termStaffing" -> "asiohr:HiredStaff" [ label = "rdfs:subClassOf" ];
+	"asiohr:HiredStaff" -> "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" [ label = "rdfs:subClassOf" ];
+	"asiohr:TechniquePersonnel" -> "asiohr:HumanResource" [ label = "rdfs:subClassOf" ];
+	"asiohr:Long-termStaffing" -> "asiohr:HiredStaff" [ label = "rdfs:subClassOf" ];
+	"asiohr:ResearchFellow" -> "asiohr:ResearchPersonnel" [ label = "rdfs:subClassOf" ];
+	"asiohr:OfficialStaff" -> "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel" [ label = "rdfs:subClassOf" ];
+
+}

@@ -1,0 +1,34 @@
+{
+  "@context" : {
+    "HumanResource" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource"
+    },
+    "HiredStaff" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff"
+    },
+    "ResearchPersonnel" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel"
+    },
+    "TechniquePersonnel" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#TechniquePersonnel"
+    },
+    "Long-termStaffing" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing"
+    },
+    "ResearchFellow" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchFellow"
+    },
+    "AdministrativePersonnel" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel"
+    },
+    "OfficialStaff" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#OfficialStaff"
+    },
+    "Short-termStaffing" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing"
+    },
+    "TeachingPersonnel" : {
+      "@id" : "http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel"
+    }
+  }
+}

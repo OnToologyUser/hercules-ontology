@@ -1,0 +1,53 @@
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#AdministrativePersonnel> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Long-termStaffing> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#OfficialStaff
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#OfficialStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#OfficialStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchFellow
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchFellow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchFellow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#ResearchPersonnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Short-termStaffing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HiredStaff> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#TechniquePersonnel
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#TechniquePersonnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#TechniquePersonnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource> .
+# 
+# http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#Research&TeachingPersonnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/spitxa/ontologies/2020/1/asio-human-resource#HumanResource> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
